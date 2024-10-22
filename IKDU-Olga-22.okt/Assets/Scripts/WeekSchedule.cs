@@ -4,7 +4,7 @@ using UnityEngine;
 public class WeekSchedule : MonoBehaviour
 {
     // in this variable the day is defined
-    public string WeekDay = "Monday";
+    public string WeekDay = "Tuesday";
 
 
 
@@ -31,7 +31,7 @@ public class WeekSchedule : MonoBehaviour
             case "Monday":
              Debug.Log("Working Hard");
             break;
-            case "Tueday":
+            case "Tuesday":
              Debug.Log("Working Even Harder");
             break;
             case "Wednesday":
